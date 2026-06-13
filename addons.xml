@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.smr_link_tester" version="1.1.20" name="SMR Link Tester" provider-name="gujal">
+<addon id="plugin.video.smr_link_tester" version="1.1.21" name="SMR Link Tester" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0"/> -->
         <import addon="script.module.resolveurl"/>
@@ -66,11 +66,12 @@
 
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.202" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.203" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
+        <import addon="script.module.pyqrcode" />
         <import addon="script.module.cloudrequest" optional="true" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
